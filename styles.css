@@ -1,0 +1,74 @@
+
+body{
+   margin-left: 5px;
+   margin-right: 5px;
+}
+.toprightnav {
+    float: right;
+    color: #f2f2f2;
+    text-decoration: none;
+    font-size: 17px;
+   margin: 0px;
+   justify-content:space-around;
+  }
+ .toprightnav .one  {
+    margin: 10px;
+    margin-left: 30px;
+ }
+ .toprightnav .one:hover {
+ color:  blue;
+ }
+
+
+.button {
+    background-color: rgb(245, 90, 116);
+    padding: 8px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    border-color: pink;
+    border-radius: 8px;
+   text-align: center;
+    width: 150px;
+
+
+  
+  }
+  .text{ padding-top: 40px;
+    text-align: center;
+    color: rgb(41, 41, 83);
+  }
+.imageone{
+    padding-top: 250px;
+    position: absolute;
+    left: 400px;
+    top: 20px;
+    z-index: 2;
+    width:500px;
+    padding-left: 100px;
+
+    
+}
+.imagetwo{
+    position: relative;
+    z-index:1;
+    padding-top: 50px;
+    float:fit-content;
+    padding-left: 100px;
+    width:500px;
+}
+ 
+
+  .column {
+    float: left;
+    width: 30.33%;
+    padding-top: 100px;
+    margin-left: 25px;
+
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
