@@ -13,8 +13,8 @@ body{
    justify-content:space-around;
   }
  #toprightnav .one  {
-    margin: 10px;
-    margin-left: 30px;
+    margin: 5px;
+    margin-left: 15px;
  }
  #toprightnav .one:hover {
  color:  blue;
